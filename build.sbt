@@ -6,6 +6,8 @@ organization := "play"
 
 resolvers += "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 
+scalaVersion := "2.11.1"
+
 crossScalaVersions := Seq("2.10.4", "2.11.1")
 
 resolvers += Classpaths.sbtPluginReleases
